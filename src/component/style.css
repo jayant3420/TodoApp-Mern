@@ -188,3 +188,19 @@ html {
   padding-left: 1rem;
   font-size: 1.6rem;
 }
+
+@media only screen and (min-height: 370px) and (max-height: 700px) {
+  .child-div {
+    padding: 0 1.5rem;
+  }
+
+  .form-control,
+  .addItems,
+  .eachItem {
+    min-width: 35rem;
+  }
+
+  .fas {
+    left: 14.8rem;
+  }
+}
