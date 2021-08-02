@@ -48,6 +48,7 @@ const Todo = () => {
     setEditId(index);
   };
 
+  /*Delete an item*/
   const deleteItem = (id) => {
     let updateItems = AddItems.filter((item, index) => {
       return item.id !== id;
