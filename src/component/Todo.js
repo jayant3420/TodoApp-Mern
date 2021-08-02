@@ -56,7 +56,7 @@ const Todo = () => {
     setAddItems(updateItems);
   };
 
-  //add items into the localstorage
+  /*add items into the localstorage*/
   useEffect(() => {
     localStorage.setItem("mytodolist", JSON.stringify(AddItems));
   }, [AddItems]);
