@@ -49,12 +49,12 @@ const Todo = () => {
   };
 
   /*Delete an item*/
-  const deleteItem = (id) => {
-    let updateItems = AddItems.filter((item, index) => {
-      return item.id !== id;
-    });
-    setAddItems(updateItems);
-  };
+  // const deleteItem = (id) => {
+  //   let updateItems = AddItems.filter((item, index) => {
+  //     return item.id !== id;
+  //   });
+  //   setAddItems(updateItems);
+  // };
 
   /*add items into the localstorage*/
   useEffect(() => {
